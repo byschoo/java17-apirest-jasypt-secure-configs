@@ -21,7 +21,7 @@ public class CustomProperties {
     @NotBlank(message = "PayPal User no puede estar vacío")
     private String paypalUser;
     
-    @NotBlank(message = "PayPal User no puede estar vacío")
-    private String DBpassword;
+    @NotBlank(message = "DB Password no puede estar vacío")
+    private String db_secret_password;
 
 }
